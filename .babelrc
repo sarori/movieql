@@ -1,3 +1,4 @@
+//can put all settings for babel.
 {
     "presets": ["env", "stage-3"]
 }
