@@ -6,6 +6,4 @@ const server = new GraphQLServer({
 	resolvers
 });
 
-console.log("graphql");
-
 server.start(() => console.log("Graphql Server Running"));
