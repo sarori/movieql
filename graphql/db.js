@@ -25,5 +25,5 @@ export const getSuggestions = id => {
 	const REQUEST_URL = API_URL + "movie_suggestions.json?movie_id=" + id;
 	return fetch(REQUEST_URL)
 		.then(res => res.json())
-		.then(json => json.data.suggestions);
+		.then(json => json.data.movies);
 };
